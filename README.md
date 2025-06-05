@@ -1,2 +1,2 @@
 # Airline-
-Remember when airline lifetime passes were a thing? This algorithm explores a consequence of that offer. Can someone travel in an infinite consecutive sequence of flights?
+Remember when airline lifetime passes were a thing? This algorithm explores a consequence of that offer. Can someone travel in an infinite consecutive sequence of flights? The code implements an altered Depth First Search to simulate a directed graph. A HashMap is used to map destinations to their sources. Additionally, the algorithm color codes each city based on their visited status in a specific route. If when using a recursive path, a city that has already been visited is found, the algorithm has succesfully found an infinite cycle, and so returns True. 
